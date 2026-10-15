@@ -1,0 +1,17 @@
+# Generated dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.tsbuildinfo
+
+# Local SQLite data and journals: keep locally, never use Git as a reset tool
+**/*.sqlite
+**/*.sqlite-journal
+**/*.sqlite-wal
+**/*.sqlite-shm
+
+# Generated test evidence, reports, and logs (files remain on disk)
+**/test-results/
+**/playwright-report/
+**/coverage/
+*.log
